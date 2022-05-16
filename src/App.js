@@ -1,11 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Root from 'components/Root';
+import Router from 'router/Router';
 
 function App() {
   return (
     <div className="App">
-        <Root />
+      <Router />
     </div>
   );
 }
